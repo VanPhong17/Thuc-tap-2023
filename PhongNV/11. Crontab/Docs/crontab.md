@@ -23,7 +23,7 @@ Một crontab file có 5 trường xác định thời gian, cuối cùng là l�
 2. Trường thứ 2 mô tả giờ (giá trị từ 0-23)
 3. Trường thứ 3 mô tả ngày của tháng (giá trị từ 1-31)
 4. Trường thứ 4 mô tả tháng (giá trị từ 1-12)
-5. Trường thứ 5 mô tả ngày trong tuần (giá trị từ 0-7)
+5. Trường thứ 5 mô tả ngày trong tuần (giá trị từ 0-6)
 6. Trường thứ 6 mô tả chúng ta sẽ thực thi câu lệnh với quyền của account nào
 7. Trường thứ 7 mô tả câu lệnh chúng ta sẽ thực thi
 
@@ -45,3 +45,50 @@ Chạy script vào 5 giờ sáng mỗi ngày
 # ***Tài liệu tham khảo***
 <https://vietnix.vn/crontab/>
 <https://viblo.asia/p/crontab-cong-cu-lap-lich-huu-ich-tren-linux-L4x5xdMw5BM>
+
+
+
+
+```
+
+#!/bin/bash
+# ID chat Telegram
+USERID="-951717747"
+
+# API Token bot
+TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
+curl -d chat_id=$USERID -d text="Học Tín Hiệu và Hệ Thống tại phòng B708"  https://api.telegram.org/bot$TOKEN/sendMessage
+```
+```
+#!/bin/bash
+# ID chat Telegram
+USERID="-951717747"
+
+# API Token bot
+TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
+curl -d chat_id=$USERID -d text="Học Tiếng anh tại phòng B304"  https://api.telegram.org/bot$TOKEN/sendMessage
+```
+
+```
+#!/bin/bash
+# ID chat Telegram
+USERID="-951717747"
+
+# API Token bot
+TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
+curl -d chat_id=$USERID -d text="Học Tiếng anh tại phòng A407"  https://api.telegram.org/bot$TOKEN/sendMessage
+```
+
+```
+#!/bin/bash
+# ID chat Telegram
+USERID="-951717747"
+
+# API Token bot
+TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
+curl -d chat_id=$USERID -d text="Học Quản Trị Hệ Thống tại phòng B712"  https://api.telegram.org/bot$TOKEN/sendMessage
+```
+
+
+
+
