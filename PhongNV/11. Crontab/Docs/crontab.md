@@ -4,9 +4,11 @@ Crontab chính là một cách để tạo và thực hiện chạy các lệnh 
 Về cách thức hoạt động, một cron schedule đơn giản chính là một text file. Mỗi một người dùng đều sẽ có cho mình một cron schedule riêng. File này thường sẽ nằm ở vị trí  /var/spool/cron. Ngoài ra, Crontab files sẽ không cho phép người dùng tạo hoặc thực hiện chỉnh sửa trực tiếp đối với bất cứ trình text editor nào. Ngoại trừ việc bạn sử dụng lệnh crontab.
 
 ## ***2.1 Một số lệnh crontab mà bạn thường dùng như sau:***
-***crontab -e***: Đây là lệnh tạo hoặc chỉnh sửa file crontab 
-***crontab -l***: Đây là lệnh hiển thị file crontab 
-***crontab -r***: Đây là lệnh xóa file crontab
+```crontab -e```: Đây là lệnh tạo hoặc chỉnh sửa file crontab 
+
+```crontab -l```: Đây là lệnh hiển thị file crontab 
+
+```crontab -r```: Đây là lệnh xóa file crontab
 # ***3. Cấu trúc của crontab***
 Một crontab file có 5 trường xác định thời gian, cuối cùng là lệnh sẽ được chạy định kỳ, cấu trúc như sau:
 ```
