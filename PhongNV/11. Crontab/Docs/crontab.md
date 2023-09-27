@@ -49,45 +49,6 @@ Chạy script vào 5 giờ sáng mỗi ngày
 
 
 
-```
-
-#!/bin/bash
-# ID chat Telegram
-USERID="-951717747"
-
-# API Token bot
-TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
-curl -d chat_id=$USERID -d text="Học Tín Hiệu và Hệ Thống tại phòng B708"  https://api.telegram.org/bot$TOKEN/sendMessage
-```
-```
-#!/bin/bash
-# ID chat Telegram
-USERID="-951717747"
-
-# API Token bot
-TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
-curl -d chat_id=$USERID -d text="Học Tiếng anh tại phòng B304"  https://api.telegram.org/bot$TOKEN/sendMessage
-```
-
-```
-#!/bin/bash
-# ID chat Telegram
-USERID="-951717747"
-
-# API Token bot
-TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
-curl -d chat_id=$USERID -d text="Học Tiếng anh tại phòng A407"  https://api.telegram.org/bot$TOKEN/sendMessage
-```
-
-```
-#!/bin/bash
-# ID chat Telegram
-USERID="-951717747"
-
-# API Token bot
-TOKEN="6154139493:AAF7dmi-_CiXwvEH1HjS_sOC7of-ruAO4BY"
-curl -d chat_id=$USERID -d text="Học Quản Trị Hệ Thống tại phòng B712"  https://api.telegram.org/bot$TOKEN/sendMessage
-```
 
 
 
